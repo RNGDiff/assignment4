@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla:EDPT@0..200&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="home">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Hem</a></li>
+                <li><a href="#menyn">Meny</a></li>
+                <li><a href="#scrollbuffe">Lunchbuffe</a></li>
+                <li><a href="#prices">Priser</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <!-- presentera sidan med titel och beskrivning -->
+    <div class="presentation-container" >
+        <div class="title-container">
+            <h1 class="title">Rione 176</h1>
+        </div>
+        <div class="desc-container">
+            <p class="desc"> Rione 176 som översätts till kvarter 176 är en italiensk restaurang där en gastronomisk upplevelse speglar Italiens rika matkultur, där kvalitet, tradition och enkelhet står i centrum. Konceptet är baserad på en klassisk trattoria familjeägd, rustik och hemtrevlig.</p>
+        </div>
+        <h1 id="menyn"></h1>
+    </div>
+    
+    <h1 class="menu-sign">Meny</h1>
+    <div class="filter-container">
+        <button class="filter filter0">Visa hela menyn</button>
+        <button class="filter filter1">Förrätter</button>
+        <button class="filter filter2">Varmrätter</button>
+        <button class="filter filter3">Efterrätter</button>
+    </div>
+    <div class="container">
+        <div class="menu-container">
+            <div class="first-course">
+                <div class="starter-option entire-menu">
+                    <h1 class="menu 
+                    filter1">Förrätter</h1> 
+                    <h2 class="menu-item">Spaghetti Carbonara</h2>
+                    <p class="menu-desc">En klassisk romersk pasta som består av spaghetti, guanciale, ägg, Pecorino Romano-ost och svartpeppar.</p>
+                    <h2 class=" menu-item">Risotto al Tartufo</h2>
+                    <p class="menu-desc">En lyxig risottorätt som är smaksatt med tryffel. Risottot tillagas med Carnaroli- eller Arborio-ris, lök, vitt vin, buljong och Parmigiano-Reggiano.</p>
+                    <h2 class="menu-item">Gnocchi al Pesto</h2>
+                    <p class="menu-desc">Mjuka potatisgnocchi serverade med pesto. Gnocchi tillverkas av potatis, mjöl och ibland ägg, och formas till små kuddar. Pesto är en traditionell sås från Ligurien, gjord på basilika, pinjenötter, vitlök, Pecorino- och Parmigiano-ost samt olivolja.</p>
+                </div>
+            </div>
+
+            <div class="main-dishes">
+                <div class="main-option entire-menu">
+                    <h1 class="menu filter2">Varmrätter</h1> 
+                    <h2 class="menu-item">Ossobuco</h2>
+                    <p class="menu-desc">En italiensk gryta från Milano som består av kalvskank som långsamt kokas med vitt vin, buljong, grönsaker och tomater. Den serveras med risotto alla Milanese och gremolata.</p>
+                    <h2 class="menu-item">Saltimbocca</h2>
+                    <p class="menu-desc">En rätt från Rom som består av tunna skivor av kalvkött, parmaskinka och salvia, som rullas ihop och steks i smör och vitt vin. Serveras med potatis eller grönsaker.</p>
+                    <h2 class="menu-item">Bistecca Fiorentina</h2>
+                    <p class="menu-desc">En tjock, saftig biff från Toscana som traditionellt tillagas av Chianina-nötkött. Biffen grillas över hög värme och serveras med salt, svartpeppar och olivolja. </p>
+                </div>
+            </div>
+
+            <div class="desserts">
+                <div class="dessert-option entire-menu">
+                    <h1 class="menu filter3">Efterrätter</h1>
+                    <h2 class="menu-item">Tiramisu
+                    </h2>
+                    <p class="menu-desc">En populär italiensk dessert som består av lager av kaffedoppade savoiardi-kex och en krämig blandning av mascarponeost, ägg och socker. Den toppas med kakaopulver och är känd för sin lätta och luftiga konsistens.</p>
+                    <h2 class="menu-item">Panna Cotta
+                    </h2>
+                    <p class="menu-desc">En enkel men elegant dessert från norra Italien. Den består av grädde, socker och vanilj som kokas och stelnar med gelatin. Serveras med bärsås eller karamell och har en len, smältande konsistens.
+                    </p>
+                    <h2 class="menu-item">Cannoli
+                    </h2>
+                    <p class="menu-desc">En söt och krispig dessert från Sicilien. Cannoli består av spröda, friterade degrör fyllda med en söt ricottaostkräm, smaksatt med vanilj eller choklad. De garneras med pistagenötter eller kandiserad frukt.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- & Buffe Section -->
+    <div class="buffeinfo-container" id="scrollbuffe">
+        <h1 class="lunchbuffe">Lunchbuffe</h1>
+        <a class="buffe-info-btn" href="#scrollbuffe">Visa information</a>
+    </div>
+
+    <div class="buffe-flex-container">
+        <div class="buffe-container">
+            <div class="buffe-content">
+                <h1 class="buffe-items">Måndag</h1>
+                <h2 class="buffe-titel">Pasta-dag</h2>
+                <p>Caprese-sallad, bruschetta, oliver och antipasto-platta.</p>
+                <p>Spaghetti Carbonara, Penne all Arrabbiata, Lasagne al Forno.</p>
+                <p> Margherita, Quattro Formaggi.</p>
+                <p>Tiramisu, panna cotta, gelato.</p>
+                <h4>Pris: 199 kr per person.</h4>
+            </div>
+            <div class="buffe-content">
+                <h1 class="buffe-items">Tisdag</h1>
+                <h2 class="buffe-titel">Risotto och kött dag</h2>
+                <p>Caprese-sallad, bruschetta, oliver och antipasto-platta.</p>
+                <p>Spaghetti Carbonara, Penne all’Arrabbiata, Lasagne al Forno.</p>
+                <p> Margherita, Quattro Formaggi.</p>
+                <p>Tiramisu, panna cotta, gelato.</p>
+                <h4>Pris: 219 kr per person.</h4>
+            </div>
+            <div class="buffe-content">
+                <h1 class="buffe-items">Onsdag</h1>
+                <h2 class="buffe-titel">Fisk och skaldjursdag</h2>
+                <p>Caprese-sallad, bruschetta, oliver och antipasto-platta.</p>
+                <p>Spaghetti Carbonara, Penne all Arrabbiata, Lasagne al Forno.</p>
+                <p> Margherita, Quattro Formaggi.</p>
+                <p>Tiramisu, panna cotta, gelato.</p>
+                <h4>Pris: 239 kr per person.</h4>
+            </div>
+            <div class="buffe-content">
+                <h1 class="buffe-items">Torsdag</h1>
+                <h2 class="buffe-titel">Kött och ost dag</h2>
+                <p>Caprese-sallad, bruschetta, oliver och antipasto-platta.</p>
+                <p>Spaghetti Carbonara, Penne all’Arrabbiata, Lasagne al Forno.</p>
+                <p> Margherita, Quattro Formaggi.</p>
+                <p>Tiramisu, panna cotta, gelato.</p>
+                <h4>Pris: 249 kr per person.</h4>
+            </div>
+            <div class="buffe-content">
+                <h1 class="buffe-items">Fredag</h1>
+                <h2 class="buffe-titel">Gourmet dag</h2>
+                <p>Caprese-sallad, bruschetta, oliver och antipasto-platta.</p>
+                <p>Spaghetti Carbonara, Penne all’Arrabbiata, Lasagne al Forno.</p>
+                <p> Margherita, Quattro Formaggi.</p>
+                <p>Tiramisu, panna cotta, gelato.</p>
+                <h4>Pris: 279 kr per person.</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- ! PRICE LIST -->
+    <div class="price-container">
+        <div class="price-list" id="prices">
+            <div class="price-content">
+                <h2 class="price-title">Spaghetti Carbonara</h2>
+                <p class="price">120kr</p>
+                <button>Lägg till</button>
+            </div>
+            <div class="price-content">
+                <h2 class="price-title">Risotto al Tartufo</h2>
+                <p class="price">220kr</p>
+                <button>Lägg till</button>
+            </div>
+            <div class="price-content">
+                <h2 class="price-title">Gnocchi al Pesto</h2>
+                <p class="price">160kr</p>
+                <button>Lägg till</button>
+
+            </div>
+            <div class="price-content">
+                <h2 class="price-title">Ossobuco</h2>
+                <p class="price">210kr</p>
+                <button>Lägg till</button>
+
+            </div>
+            <div class="price-content">
+                <h2 class="price-title">Saltimbocca</h2>
+                <p class="price">170kr</p>
+                <button>Lägg till</button>
+
+            </div>
+            <div class="price-content">
+                <h2 class="price-title">Bistecca Fiorentina</h2>
+                <p class="price">250kr</p>
+                <button>Lägg till</button>
+            </div>
+            <div class="price-content">
+                <h2 class="price-title">Tiramisu</h2>
+                <p class="price">70kr</p>
+                <button>Lägg till</button>
+
+            </div>
+            <div class="price-content">
+                <h2 class="price-title">Panna Cotta</h2>
+                <p class="price">60kr</p>
+                <button>Lägg till</button>
+
+            </div>
+            <div class="price-content">
+                <h2 class="price-title">Cannoli</h2>
+                <p class="price">60kr</p>
+                <button>Lägg till</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
