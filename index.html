@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nabla:EDPT@0..200&display=swap" rel="stylesheet">
 
-    <title>Document</title>
+    <title>Rione 176</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body id="home">
@@ -28,6 +28,17 @@
         </div>
         <div class="desc-container">
             <p class="desc"> Rione 176 som översätts till kvarter 176 är en italiensk restaurang där en gastronomisk upplevelse speglar Italiens rika matkultur, där kvalitet, tradition och enkelhet står i centrum. Konceptet är baserad på en klassisk trattoria familjeägd, rustik och hemtrevlig.</p>
+        </div>
+        <div class="desc-container">
+            <p class="desc"> Enkelhet – Få, men högkvalitativa ingredienser används för att framhäva naturliga smaker. En klassisk tomatsås kan bestå av bara tomater, olivolja, vitlök och basilika.
+                <br>
+                <br>
+
+                Säsongsbetonade råvaror – Färska, lokala och ekologiska produkter är kärnan i det italienska köket. Tomater, basilika och mozzarella används på sommaren, medan tryffel och vilt är populära på hösten.
+                <br>
+                <br>
+
+                Balans mellan tradition och innovation – Många italienska restauranger hedrar gamla recept som har gått i arv i generationer, men de kan också experimentera med nya smakkombinationer och tekniker.</p>
         </div>
         <h1 id="menyn"></h1>
     </div>
@@ -146,56 +157,61 @@
             <div class="price-content">
                 <h2 class="price-title">Spaghetti Carbonara</h2>
                 <p class="price">120kr</p>
-                <button>Lägg till</button>
+                <button onclick="calcTotal(120)">Lägg till</button>
             </div>
             <div class="price-content">
                 <h2 class="price-title">Risotto al Tartufo</h2>
                 <p class="price">220kr</p>
-                <button>Lägg till</button>
+                <button onclick="calcTotal(220)">Lägg till</button>
             </div>
             <div class="price-content">
                 <h2 class="price-title">Gnocchi al Pesto</h2>
                 <p class="price">160kr</p>
-                <button>Lägg till</button>
+                <button onclick="calcTotal(160)">Lägg till</button>
 
             </div>
             <div class="price-content">
                 <h2 class="price-title">Ossobuco</h2>
                 <p class="price">210kr</p>
-                <button>Lägg till</button>
+                <button onclick="calcTotal(210)">Lägg till</button>
 
             </div>
             <div class="price-content">
                 <h2 class="price-title">Saltimbocca</h2>
                 <p class="price">170kr</p>
-                <button>Lägg till</button>
+                <button onclick="calcTotal(170)">Lägg till</button>
 
             </div>
             <div class="price-content">
                 <h2 class="price-title">Bistecca Fiorentina</h2>
                 <p class="price">250kr</p>
-                <button>Lägg till</button>
+                <button onclick="calcTotal(250)">Lägg till</button>
             </div>
             <div class="price-content">
                 <h2 class="price-title">Tiramisu</h2>
                 <p class="price">70kr</p>
-                <button>Lägg till</button>
+                <button onclick="calcTotal(70)">Lägg till</button>
 
             </div>
             <div class="price-content">
                 <h2 class="price-title">Panna Cotta</h2>
                 <p class="price">60kr</p>
-                <button>Lägg till</button>
+                <button onclick="calcTotal(60)">Lägg till</button>
 
             </div>
             <div class="price-content">
                 <h2 class="price-title">Cannoli</h2>
                 <p class="price">60kr</p>
-                <button>Lägg till</button>
+                <button onclick="calcTotal(60)">Lägg till</button>
             </div>
         </div>
     </div>
-    
+    <div class="total-container">
+        <h1 class="total">
+            Totalt för denna beställning:
+        </h1>
+        <button onclick="calcTotal(0)">Gör om beställningen</button>
+    </div>
 
 
     <script src="js/script.js"></script>

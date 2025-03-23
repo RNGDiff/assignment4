@@ -41,7 +41,24 @@ const showBuffe = document.querySelector('.buffe-container');
 const showBuffeTwo = document.querySelector('.buffe-content');
 
 
-document.querySelector('.buffe-info-btn').addEventListener('click', () =>{
+const buffeBtn = document.querySelector('.buffe-info-btn');
+buffeBtn.addEventListener('click', () =>{
     showBuffe.classList.toggle('buffe-active');
+    if(buffeBtn.innerHTML == 'Visa information'){
+        buffeBtn.innerText = 'Dölj information';
+    }
+    else{
+        buffeBtn.innerText = 'Visa information';
+    }
 
-})
+});
+
+let total = 0;
+function calcTotal(price){
+    total = total + price;
+    if(price == 0){
+        total = 0;
+    }
+    document.querySelector('.total').innerText = `Totalt för denna beställning: ${total} kr`;
+    
+}
